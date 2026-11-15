@@ -11,7 +11,7 @@ import Location from './components/Location';
 const App = () => {
     return (
         <AppProvider>
-            <div className='container'>
+            <main className='container pb-4'>
                 <h1 className='mt-3'>Shopping App</h1>
                 <div className='row mt-3'> 
                     <div className='col-sm'>
@@ -21,19 +21,19 @@ const App = () => {
                         <Location />
                     </div>
                 </div>
-                <h3 className='mt-3'>Shopping Cart</h3>
+                <h2 className='mt-3'>Shopping Cart</h2>
                 <div className='row '>
                     <div className='col-sm'>
                         <ExpenseList />
                     </div>
                 </div>
-                <h3 className='mt-3'>Add Items</h3>
+                <h2 className='mt-3'>Add Items</h2>
                 <div className='row mt-3'>
                     <div className='col-sm'>
                         <ItemSelected/>
                     </div>
                 </div>
-            </div>
+            </main>
         </AppProvider>
     );
 };
