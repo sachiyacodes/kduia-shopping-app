@@ -2,26 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="%BASE_URL%favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="A small React shopping cart exercise with item prices and a running total."
     />
-    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="apple-touch-icon" href="%BASE_URL%logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="%BASE_URL%manifest.json" />
     <!--
-      Vite serves assets in the public folder from the site root.
+      Vite serves assets in the public folder from the configured base path.
       These files are copied unchanged to the build output.
       Source modules are loaded through the entry script below.
 
-      The asset paths here assume deployment at the site root.
-      Configure Vite base and asset paths before hosting under a subdirectory.
+      The asset paths use BASE_URL for the GitHub Pages project subdirectory.
+      Keep Vite base aligned with the deployed repository path.
       Use `npm run build` to generate production output.
     -->
     <title>Shopping App — React Coursework</title>
